@@ -18,7 +18,7 @@ const WelcomeScreen = ({errorsCount}) => {
 };
 
 WelcomeScreen.propTypes = {
-  errorsCount: PropTypes.string.isRequired
+  errorsCount: PropTypes.number.isRequired
 };
 
 export default WelcomeScreen;

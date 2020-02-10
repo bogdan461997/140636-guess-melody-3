@@ -7,7 +7,7 @@ const App = ({errorsCount}) => {
 };
 
 App.propTypes = {
-  errorsCount: PropTypes.string.isRequired
+  errorsCount: PropTypes.number.isRequired
 };
 
 export default App;
